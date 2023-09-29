@@ -1,0 +1,64 @@
+/*8*/
+section.single{
+    margin: 100px auto;
+ }
+ section.single div.sing{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ section.single div.singr{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 15px;
+ }
+ section.single div.singr p{
+    font-size: x-small;
+    color: #FDC800;
+ }
+ section.single div.singr h1{
+    font-size: xx-large;
+    color: #002147;
+ }
+ section.single div.singr .fa-envelope{
+    position: absolute;
+    left: 5px;
+    margin:10px 10px ;
+    margin-right: 20px;
+ }
+ section.single div.singr button{
+    font-size: xx-small;
+    background-color: #FDC800;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 5px;
+    margin: 2px 0;
+    transition: .5s;
+ }
+ section.single div.singr button:hover{
+   background-color: black;
+   color: #fff;
+ }
+ section.single div.singr div.box{
+    position: relative;
+ }
+ section.single div.singr input{
+    padding: 10px;
+    width: 300px;
+    
+ }
+ section.single div.singr input::placeholder{
+    opacity: .5;
+    font-size: x-small;
+    padding-left: 30px;
+   
+    
+    
+ }

@@ -1,0 +1,25 @@
+@import'./compons/info.css';
+@import'./compons/header.css';
+@import'./compons/main.css';
+@import'./compons/python.css';
+@import'./compons/boxes.css';
+@import'./compons/succ.css';
+@import'./compons/pepol.css';
+@import'./compons/single.css';
+@import'./compons/footr.css';
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.content{
+padding: 0 15%;
+}

@@ -1,0 +1,97 @@
+/*9*/
+section.footr{
+    background-color: #002147;
+    width: 100%;
+    min-height: 500px;
+    color: #ffff;
+    position: relative;
+ }
+ section.footr div.foo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    place-content: center center;
+    gap: 50px;
+
+ }
+ section.footr div.foo div.top{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   grid-column: 1/4;
+   gap: 30PX;
+}
+ section.footr div.foo div.book{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    grid-column: 1/4;
+    
+    padding-top: 60px;
+
+ }
+ section.footr div.foo div.b {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-top: 80px;
+
+ }
+ section.footr div.bo{
+   font-size: large;
+   font-weight: bold;
+ }
+ section.footr a{
+   text-decoration: none;
+   color: #ffff;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 10PX;
+   flex-direction: row;
+ }
+ section.footr a P{
+   padding-bottom: 12PX;
+ }
+ section.footr div.bofoo{
+   background-color: #FDC800;
+   position: relative;
+   color: black;
+   bottom: 0;
+   width: 70%;
+   margin: 0 auto;
+   min-height: 100px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: stretch;
+   justify-content: space-between;
+ }
+ section.footr div.bofoo div.boo2{
+   display: flex;
+   gap: 10px;
+   color: black;
+ }
+ section.footr div.bofoo div.boo2 a{
+   color: black;
+ }
+ @media (max-width:570px) {
+  section.footr{
+    font-size: xx-small;
+    
+  }
+  section.footr div.b{
+    order: 5;
+  }
+  section.footr div.foo{
+    grid-template-columns: repeat(1,1fr);
+  }
+  section.footr div.bofoo{
+    text-align: center;
+  }
+ }
